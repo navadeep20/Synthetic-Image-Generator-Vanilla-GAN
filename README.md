@@ -42,4 +42,5 @@ Use Cases
 Healthcare, Retail, Education, Surveillance
 
 Author
-Navadeep
+
+Team-8 GANS FOR IMAGES
