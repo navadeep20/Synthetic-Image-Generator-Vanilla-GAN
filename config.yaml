@@ -1,0 +1,24 @@
+project:
+  name: Synthetic Image Generator using Vanilla GAN
+  version: v1
+
+data:
+  dataset: MNIST
+  image_size: 28
+  channels: 1
+  normalization: tanh
+  train_split: 0.95
+
+training:
+  latent_dim: 100
+  batch_size: 64
+  epochs: 50
+  learning_rate: 0.0002
+  beta1: 0.5
+
+paths:
+  data_dir: data/
+  samples_dir: samples/
+  checkpoints_dir: checkpoints/
+  logs_dir: logs/
+  figures_dir: figures/

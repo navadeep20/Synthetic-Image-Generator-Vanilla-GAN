@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model checkpoints (large files)
+*.pth
+
+# Generated outputs
+samples/
+logs/
+figures/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
